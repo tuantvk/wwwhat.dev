@@ -20,6 +20,7 @@ export const Header = memo(
           />
           <Link
             href={GITHUB_REPO}
+            target="_blank"
             className="flex flex-row items-center self-start hover:scale-110 ease-in-out duration-300"
           >
             <IconGithub className="w-7 mr-1" />

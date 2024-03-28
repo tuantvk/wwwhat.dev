@@ -4,6 +4,7 @@ const nextConfig = {
   reactStrictMode: false,
   productionBrowserSourceMaps: false,
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",

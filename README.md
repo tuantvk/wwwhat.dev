@@ -3,7 +3,9 @@
 <span align="center">GitHub Repository for Hiring</span>
 </p>
 
-![Vercel](https://vercelbadge.vercel.app/api/tuantvk/wwwhat.dev?style=for-the-badge)
+![Vercel](https://vercelbadge.vercel.app/api/tuantvk/wwwhat.dev?style=flat-square)
+
+Visit [https://wwwhat-dev.vercel.app/](https://wwwhat-dev.vercel.app/)
 
 ## How It Works?
 
@@ -27,6 +29,7 @@ company: GitHub
 logoCompany: https://user-images.githubusercontent.com/logo.png
 shortDescription: GitHub is where over 100 million developers...
 location: San Francisco, CA, United States
+salary: $100K – $110K/yr
 technologies: Java, JavaScript, Kotlin, Kubernetes, MongoDB, Node.js, PostgreSQL, Python
 isRemoteJob: true
 ---
@@ -46,7 +49,7 @@ View file [issue-template.md](/.github/ISSUE_TEMPLATE/issue-template.md)
 | Key              | Description |
 |------------------|-------------|
 | company          | Business name, team name,... |
-| logoCompany      | Path for your logo. Only except from host `*.githubusercontent.com` [Writing on GitHub - Attaching files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) |
+| logoCompany      | Path for your logo. [Writing on GitHub - Attaching files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) |
 | shortDescription | Description for business name or for jobs,... |
 | location         | Address, country,... [List of Countries](/app/data/countries.ts) |
 | technologies     | Technologies skills, comma separator [Technologies](/app/data/technologies.ts) |
