@@ -1,0 +1,29 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  background: rgb(var(--background-rgb));
+}
+
+.ReactModal__Overlay {
+  z-index: 999 !important;
+  background-color: rgb(0, 0, 0, 0.75) !important;
+}
+
+.ReactModal__Content {
+  border: none !important;
+  border-radius: 16px 16px 0 0 !important;
+  inset: 60px 0 0 0 !important;
+  padding: 0 !important;
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+.ReactModal__Content::-webkit-scrollbar {
+  display: none !important;
+}
