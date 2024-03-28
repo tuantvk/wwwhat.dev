@@ -3,6 +3,8 @@
 <span align="center">GitHub Repository for Hiring</span>
 </p>
 
+![Vercel](https://vercelbadge.vercel.app/api/tuantvk/wwwhat.dev?style=for-the-badge)
+
 ## How It Works?
 
 <p align="center">

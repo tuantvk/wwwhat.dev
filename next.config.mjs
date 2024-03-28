@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/wwwhat-dev",
   output: "export",
   reactStrictMode: false,
   productionBrowserSourceMaps: false,
