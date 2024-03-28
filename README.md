@@ -52,6 +52,7 @@ View file [issue-template.md](/.github/ISSUE_TEMPLATE/issue-template.md)
 | logoCompany      | Path for your logo. [Writing on GitHub - Attaching files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) |
 | shortDescription | Description for business name or for jobs,... |
 | location         | Address, country,... [List of Countries](/app/data/countries.ts) |
+| salary           | Salary |
 | technologies     | Technologies skills, comma separator [Technologies](/app/data/technologies.ts) |
 | isRemoteJob      | Remote job (`true`, `false`, `empty`) |
 

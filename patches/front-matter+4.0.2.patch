@@ -1,0 +1,13 @@
+diff --git a/node_modules/front-matter/index.js b/node_modules/front-matter/index.js
+index d518f1d..cc60777 100644
+--- a/node_modules/front-matter/index.js
++++ b/node_modules/front-matter/index.js
+@@ -60,7 +60,7 @@ function parse (string, allowUnsafe) {
+   }
+ 
+   var loader = allowUnsafe ? parser.load : parser.safeLoad
+-  var yaml = match[match.length - 1].replace(/^\s+|\s+$/g, '')
++  var yaml = match[match.length - 1].replace(/^\s+|\s+$|\@/g, '')
+   var attributes = loader(yaml) || {}
+   var body = string.replace(match[0], '')
+   var line = computeLocation(match, string)
